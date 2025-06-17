@@ -1,0 +1,107 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Raleway:ital,wght@0,400;0,900;1,400;1,900&family=Source+Code+Pro:ital@0;1&display=swap");
+
+.box {
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  width: 95%;
+  padding: 3px;
+  background-color: lightblue;
+  box-shadow: 20px 20px 50px 10px darkslategray;
+}
+
+.tight img {
+  margin: 0;
+}
+
+.cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  grid-gap: 1em;
+}
+
+.cols-top-align {
+  align-items: start;
+}
+
+
+.cols-bottom-align {
+  align-items: end;
+}
+
+.cols21 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+}
+
+.cols31 {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  align-items: center;
+}
+
+.cols12 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  align-items: center;
+}
+
+.cols111 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
+}
+
+
+.reveal {
+  font-family: "EB Garamond", serif;
+  font-size: 3em;
+}
+
+/* .reveal p {
+  font-size: 0.6em;
+} */
+
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+  font-family: "Raleway";
+  font-weight: 900;
+  text-shadow: 2px 2px 5px darkslategray;
+  color: darkorange;
+  text-transform: none;
+}
+
+.reveal h1 {
+  font-size: 2.5em;
+  text-transform: uppercase;
+}
+
+.reveal h2 {
+  font-size: 1.8em;
+}
+
+.reveal h3 {
+  font-size: 1.2em;
+}
+
+.reveal h4 {
+  font-size: 1em;
+  text-align: left;
+  padding-top: 0.6em;
+}
+
+.reveal table {
+  font-size: 0.6em;
+}
+
+.reveal code {
+  font-family: "Source Code Pro", monospace;
+  /* font-size: 1em; */
+  line-height: 1.2em;
+}

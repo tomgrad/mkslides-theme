@@ -1,0 +1,16 @@
+index:
+    title: Index
+slides:
+    theme: beige
+    highlight_theme: custom.css
+
+    separator_vertical: ^\s*----\s*$
+    separator: ^\s*---\s*$
+
+    preprocess_script: preprocessor.py
+
+revealjs:
+    history: true
+    slideNumber: c/t
+    height: 1080
+    width: 1920
