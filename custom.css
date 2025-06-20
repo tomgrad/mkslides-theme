@@ -1,3 +1,5 @@
+@import "reveal-js/dist/theme/beige.css";
+
 @import url("https://fonts.googleapis.com/css2?family=EB+Garamond:ital@0;1&family=Raleway:ital,wght@0,400;0,900;1,400;1,900&family=Source+Code+Pro:ital@0;1&display=swap");
 
 .box {
@@ -107,7 +109,6 @@
 }
 
 .reveal .footnote { 
-  display: block;
   font-size: 0.7em;
   color: slategray;
 }

@@ -1,12 +1,12 @@
 index:
     title: Index
+
 slides:
-    theme: beige
-    highlight_theme: custom.css
+    theme: custom.css
 
     separator_vertical: ^\s*----\s*$
     separator: ^\s*---\s*$
-
+    
     preprocess_script: preprocessor.py
 
 revealjs:

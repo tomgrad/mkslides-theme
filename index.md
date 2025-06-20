@@ -9,18 +9,14 @@ by *tomgrad*
 <!-- c -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget malesuada lorem.
 <!-- | -->
-
 ![image](image.png)
-
 <!-- c. -->
 
 ----
 
 ## Two columns with top alignment
 <!-- ct -->
-
 ![image](image.png)
-
 <!-- | -->
 Duis et auctor augue. Mauris iaculis nibh id diam sodales, ut vehicula sem cursus. Maecenas feugiat eros sit amet bibendum facilisis. Fusce consectetur diam quis nibh aliquet facilisis. Cras euismod luctus tortor sit amet varius. Ut scelerisque quam pellentesque, hendrerit nulla eu, sollicitudin magna. Nam tempus felis a nulla pellentesque, non vestibulum sapien fermentum. Curabitur tempor leo sit amet neque commodo, vel hendrerit erat venenatis.
 <!-- c. -->
@@ -67,7 +63,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a n
 <!-- c111 -->
 ![image](image.png)
 <!-- | -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget malesuada lorem.
+![image](image.png)
 <!-- | -->
 ![image](image.png)
 <!-- c. -->
@@ -87,15 +83,12 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a n
 
 ## Footnote, vertical spacer and float
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-<!-- footnote -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-<!-- . -->
 
 <!-- vspace3 -->
 
+
 <!-- c -->
-![image](image.png)<!-- w25% -->
+![image](image.png)
 
 <!-- footnote --><!-- left -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
@@ -103,29 +96,26 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 
 <!-- | -->
 
-![image](image.png)<!-- w25% -->
+![image](image.png)
 <!-- footnote --><!-- right -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <!-- . -->
 
 <!-- c. -->
 
-<!-- vspace3 -->
+<!-- vspace1.5 -->
 
 <!-- footnote -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <!-- . -->
-
 
 ----
 
 ## Box
 
 <!-- box -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
+Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
 <!-- . -->
-
-### 50% width
 
 <!-- box --><!-- w50% -->
 Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget malesuada lorem.
@@ -178,6 +168,6 @@ Duis et auctor augue. Mauris iaculis nibh id diam sodales, ut vehicula sem cursu
 ----
 <!-- anim -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
-
 ![image](image.png)
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
