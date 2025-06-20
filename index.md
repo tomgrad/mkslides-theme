@@ -85,6 +85,40 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a n
 
 ----
 
+## Footnote, vertical spacer and float
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- footnote -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- . -->
+
+<!-- vspace3 -->
+
+<!-- c -->
+![image](image.png)<!-- w25% -->
+
+<!-- footnote --><!-- left -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- . -->
+
+<!-- | -->
+
+![image](image.png)<!-- w25% -->
+<!-- footnote --><!-- right -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- . -->
+
+<!-- c. -->
+
+<!-- vspace3 -->
+
+<!-- footnote -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- . -->
+
+
+----
+
 ## Box
 
 <!-- box -->

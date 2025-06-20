@@ -1,6 +1,7 @@
 import re
 
 def preprocess(md: str) -> str:
+
 # columns: <!-- c -->, <!-- | -->, <!-- c. -->
     md = re.sub(r"<!--\s*c\s*-->", r'\n<div class="cols" markdown="1"><div markdown="1">\n', md)
     md = re.sub(r"<!--\s*ct\s*-->", r'\n<div class="cols cols-top-align" markdown="1"><div markdown="1">\n', md)
@@ -12,14 +13,24 @@ def preprocess(md: str) -> str:
     md = re.sub(r"<!--\s*c31\s*-->", r'\n<div class="cols31" markdown="1"><div markdown="1">\n', md)
     md = re.sub(r"<!--\s*c111\s*-->", r'\n<div class="cols111" markdown="1"><div markdown="1">\n', md)
 
+# single close: </div> (for boxes, footnotes, etc.)
+    md = re.sub(r"<!--\s*\.\s*-->", r'\n</div>\n', md)
+
 # width: <!-- w100% -->, <!-- w50% -->
     md = re.sub(r"<!--\s*w([0-9]+)%\s*-->", r'<!-- .element style="width:\1%" -->', md)
+
+# vertical space: <!-- vspace2.5 -->
+    md = re.sub(r"<!--\s*vspace([0-9.]+)\s*-->", r'\n<p style="margin-top: \1em;"></p>\n', md)
+
+# left/right align: <!-- left -->, <!-- right -->
+    md = re.sub(r"<!--\s*left\s*-->", r'<!-- .element style="float: left" -->', md)
+    md = re.sub(r"<!--\s*right\s*-->", r'<!-- .element style="float: right" -->', md)
 
 # box: <!-- box -->, <!-- . -->
     md = re.sub(r"<!--\s*box\s*-->", r'\n<div class="box" markdown="1">\n', md)
 
-# single close: </div>
-    md = re.sub(r"<!--\s*\.\s*-->", r'\n</div>\n', md)
+# footnote: <!-- footnote -->, <!-- . -->
+    md = re.sub(r"<!--\s*footnote\s*-->", r'\n<div class="footnote" markdown="1">\n', md)
 
 # math: <!-- e -->, <!-- e. -->
     md = re.sub(r"<!--\s*e\s*-->", r'\n<div markdown="1">\\[\\begin{aligned}', md)
