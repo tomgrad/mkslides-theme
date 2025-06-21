@@ -89,19 +89,27 @@ text
 ...
 ```
 
-- footnote and float
+- footnote and text-align
 
 ```
 <!-- footnote -->
 text
 <!-- . -->
 
-<!-- footnote --><!-- left -->
+<!-- footnote --><!-- text-left -->
 ...
 
 
-<!-- footnote --><!-- right -->
+<!-- footnote --><!-- text-right -->
 ...
+```
+
+- float
+
+```
+![](image.img)<!-- float-left -->
+
+![](image.img)<!-- float-right -->
 ```
 
 - vertical space
@@ -127,6 +135,18 @@ text
 - item 1 <!-- f0 -->
 - item 2 <!-- f1 -->
 ```
+
+- absolute position (top and left of the middlepoint, width)
+
+```
+![](image.png)<!-- absolute 25 25 25 -->
+
+![](image.png)<!-- absolute 50 50 25 --><!-- f0 -->
+
+![](image.png)<!-- absolute 75 75 25 --><!-- f1 -->
+
+```
+
 
 - fit
   

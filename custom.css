@@ -27,7 +27,6 @@
   align-items: start;
 }
 
-
 .cols-bottom-align {
   align-items: end;
 }
@@ -55,7 +54,6 @@
   grid-template-columns: 1fr 1fr 1fr;
   align-items: center;
 }
-
 
 .reveal {
   font-family: "EB Garamond", serif;

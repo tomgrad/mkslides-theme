@@ -81,33 +81,51 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a n
 
 ----
 
-## Footnote, vertical spacer and float
-
-
-<!-- vspace3 -->
-
+## Footnote, text-align and vertical spacer
 
 <!-- c -->
+
+
 ![image](image.png)
 
-<!-- footnote --><!-- left -->
+<!-- footnote --><!-- text-left -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+<!-- . -->
+
+<!-- vspace2.5 -->
+
+![image](image.png)
+<!-- footnote --><!-- text-right -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <!-- . -->
 
 <!-- | -->
 
 ![image](image.png)
-<!-- footnote --><!-- right -->
+<!-- footnote -->
 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 <!-- . -->
 
 <!-- c. -->
 
-<!-- vspace1.5 -->
+----
 
-<!-- footnote -->
-Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-<!-- . -->
+## Float
+
+<!-- c -->
+![](image.png)<!-- float-left -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget malesuada lorem.
+
+
+In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. 
+
+<!-- | -->
+
+In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. 
+![](image.png)<!-- float-right -->
+Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
+
+<!-- c. -->
 
 ----
 
@@ -132,7 +150,7 @@ Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget ma
 \nabla \times \vec{B} &= \mu_0 \vec{J} + \mu_0 \varepsilon_0 \frac{\partial \vec{E}}{\partial t}
 <!-- e. -->
 
-----
+---
 
 ## Fragments
 
@@ -146,7 +164,7 @@ Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget ma
 
 # Fit <!-- fit -->
 
----
+----
 <!-- anim0 -->
 
 ## Auto-animate <!-- fit -->
@@ -171,3 +189,26 @@ Duis et auctor augue. Mauris iaculis nibh id diam sodales, ut vehicula sem cursu
 ![image](image.png)
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
+
+----
+
+![](image.png)<!-- absolute 25 25 20 -->
+
+![](image.png)<!-- absolute 50 50 20 --><!-- f0 -->
+
+![](image.png)<!-- absolute 75 75 20 --><!-- f1 -->
+
+## Absolute position
+
+<!-- c -->
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec sodales nulla a neque faucibus sagittis. Phasellus eget purus vel sem imperdiet eleifend sit amet eu est. Aliquam eget malesuada lorem.
+
+In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. 
+
+<!-- | -->
+
+In hac habitasse platea dictumst. Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit. 
+
+Nam sit amet quam feugiat, rhoncus arcu eu, tempor turpis. Nam molestie urna venenatis fermentum volutpat. Phasellus tellus turpis, tristique sed luctus et, molestie vel velit.
+
+<!-- c. -->

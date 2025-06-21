@@ -18,13 +18,17 @@ def preprocess(md: str) -> str:
 
 # width: <!-- w100% -->, <!-- w50% -->
     md = re.sub(r"<!--\s*w([0-9]+)%\s*-->", r'<!-- .element style="width:\1%" -->', md)
+    md = re.sub(r"<!--\s*w([0-9]+)\s*-->", r'<!-- .element style="width:\1%" -->', md)
+
+# absolute position with width: <!-- absolute 100 200 10 -->
+    md = re.sub(r"<!--\s*absolute ([0-9]+) ([0-9]+) ([0-9]+)\s*-->", r'<!-- .element style="position: absolute; transform: translate(-50%, -50%); top:\1%; left:\2%; width:\3%" -->', md)
 
 # vertical space: <!-- vspace2.5 -->
     md = re.sub(r"<!--\s*vspace([0-9.]+)\s*-->", r'\n<p style="margin-top: \1em;"></p>\n', md)
 
-# left/right align: <!-- left -->, <!-- right -->
-    md = re.sub(r"<!--\s*left\s*-->", r'<!-- .element style="float: left" -->', md)
-    md = re.sub(r"<!--\s*right\s*-->", r'<!-- .element style="float: right" -->', md)
+# left/right float <!-- float-left -->, <!-- float-right -->
+    md = re.sub(r"<!--\s*float-left\s*-->", r'<!-- .element style="float: left" -->', md)
+    md = re.sub(r"<!--\s*float-right\s*-->", r'<!-- .element style="float: right" -->', md)
 
 # box: <!-- box -->, <!-- . -->
     md = re.sub(r"<!--\s*box\s*-->", r'\n<div class="box" markdown="1">\n', md)
@@ -45,6 +49,12 @@ def preprocess(md: str) -> str:
 # auto-animate: <!-- anim0 -->, <!-- anim -->
     md = re.sub(r"<!--\s*anim\s*-->", r'<!-- .element data-auto-animate -->', md)
     md = re.sub(r"<!--\s*anim0\s*-->", r'<!-- .element data-auto-animate data-auto-animate-restart -->', md)
+
+# left/right text-align: <!-- text-left -->, <!-- text-right -->
+    md = re.sub(r"<!--\s*text-left\s*-->", r'<!-- .element style="text-align: left" -->', md)
+    md = re.sub(r"<!--\s*text-right\s*-->", r'<!-- .element style="text-align: right" -->', md)
+
+
 
     return md
 
